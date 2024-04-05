@@ -1,0 +1,157 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "Hai",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thanks a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "items",
+      "patterns": [
+        "Which items do you have?",
+        "What kinds of items are there?",
+        "What do you sell?"
+      ],
+      "responses": [
+        "We sell coffee and tea",
+        "We have coffee and tea"
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Do you take credit cards?",
+        "Do you accept Mastercard?",
+        "Can I pay with Paypal?",
+        "Are you cash only?"
+      ],
+      "responses": [
+        "We accept VISA, Mastercard and Paypal",
+        "We accept most major credit cards, and Paypal"
+      ]
+    },
+    {
+      "tag": "delivery",
+      "patterns": [
+        "How long does delivery take?",
+        "How long does shipping take?",
+        "When do I get my delivery?"
+      ],
+      "responses": [
+        "Delivery takes 2-4 days",
+        "Shipping takes 2-4 days"
+      ]
+    },
+    {
+      "tag": "department",
+      "patterns": [
+        "When was the Department of Iot is established?",
+        "What year was the Department of Internet of Things (IoT) established?",
+        "When did the Department of Internet of Things (IoT) officially begin its operations?"
+      ],
+      "responses": [
+        "The Department of Internet of Things (IoT) was established in 2020 "
+      ]
+    },
+    {
+      "tag": "hod",
+      "patterns": [
+        "who is the hod of iot department?",
+        "iot department hod name?",
+        "tell  me the name of iot department hod?",
+        "name of the iot hod?",
+        "what is the name of the iot department hod"
+      ],
+      "responses": [
+        "penke satyanarayana"
+      ]
+    },
+    {
+      "tag": "iot",
+      "patterns":[
+        "what is meant by iot?",
+        "what is iot?",
+        "what is meant by internet of things?",
+        "definition of internet of things?",
+        "definition of iot"
+      ],
+      "responses": [
+        "IoT stands for the Internet of Things. It refers to a network of interconnected devices embedded with sensors, software, and other technologies that enable them to collect and exchange data with each other or with a central system over the internet."
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison.",
+        "Why don't scientists trust atoms? Because they make up everything!.",
+        "Parallel lines have so much in common. It's a shame they'll never meet." ,
+        "Did you hear about the mathematician who's afraid of negative numbers? He'll stop at nothing to avoid them.",
+        "What did one plate say to the other plate? 'Lunch is on me!'",
+        "How do you organize a space party? You 'planet'!",
+        "I told my wife she was drawing her eyebrows too high. She looked surprised.",
+        "Why don't oysters donate to charity? Because they are shellfish.",
+        "I used to play piano by ear, but now I use my hands.",
+        "What did one wall say to the other wall? 'I'll meet you at the corner!'",
+        "Did you hear about the cheese factory that exploded? There was nothing left but de-brie!"
+      ]
+    },
+    {
+      "tag":"time",
+      "patterns":["what time is it","what's the time","tell me the time"],
+      "responses":["time"]
+    },
+    {
+      "tag":"date",
+      "patterns":["what is today's date","tell me today's date","date"],
+      "responses":["date"]
+    },
+    {
+      "tag":"day",
+      "patterns":["what day is it","tell me today's day","day"],
+      "responses":["day"]
+    },
+    {
+      "tag":"wikipedia",
+      "patterns":["who is","tell me what is","what is","wikipedia"],
+      "responses":["wikipedia"]
+    },
+    {
+      "tag":"google",
+      "patterns":["google search","google who is","google search what is","google what is"],
+      "responses":["google"]
+    }
+  ]
+}
